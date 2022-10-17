@@ -31,7 +31,7 @@ public class ManagerController {
 	@Autowired
 	private ManagerService managerService;
 	// 본인 images 경로에 맞춰 작성후 저장
-	final String fileRoute="C:\\HWANG0607\\workspace\\VarCharTest\\src\\main\\webapp\\images\\";
+	final String fileRoute="C:\\HWANG0607\\sourceTreedown\\mygitvarchar\\VarCharProjectWithSpring\\VarCharTest\\src\\main\\webapp\\images\\";
 
 	@RequestMapping(value="manager.do")
 	public String ManagerPage(MemberVO mvo, CarVO cvo, Model model) {
